@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HailstoneSequences/HailstoneSequences.iml" filepath="$PROJECT_DIR$/HailstoneSequences/HailstoneSequences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProblemSet1A/ProblemSet1A.iml" filepath="$PROJECT_DIR$/ProblemSet1A/ProblemSet1A.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProblemSet2B/ProblemSet2B.iml" filepath="$PROJECT_DIR$/ProblemSet2B/ProblemSet2B.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VocareumWeek1.iml" filepath="$PROJECT_DIR$/VocareumWeek1.iml" />
+    </modules>
+  </component>
+</project>
