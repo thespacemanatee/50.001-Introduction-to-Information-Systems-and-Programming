@@ -80,7 +80,7 @@ public class AlphabetGenerator {
         char[] output = new char[base];
         int counter = 0;
         for (char i: keys) {
-            while (myDict.get(i)> counter) {
+            while (myDict.get(i) - counter>0.0001) {
                 output[counter] = i;
                 counter++;
             }
