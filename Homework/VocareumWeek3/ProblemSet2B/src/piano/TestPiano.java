@@ -1,7 +1,5 @@
 package piano;
 
-import javax.sound.midi.MidiUnavailableException;
-
 import midi.Midi;
 import music.Pitch;
 
@@ -32,6 +30,7 @@ public class TestPiano {
 
             System.out.println(midi.history());
             midi.clearHistory();
+
         }
         catch (Exception ex) {
             ex.printStackTrace();
