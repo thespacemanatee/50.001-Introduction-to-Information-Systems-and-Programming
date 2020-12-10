@@ -25,6 +25,31 @@ public class TestAcc {
         Collections.sort(l, new AccountComparator());
         System.out.println(l);
 
+        System.out.println(new Account("sun", 5000));
+
+
+        l = new ArrayList<>();
+
+        l.add(new Account("himan", 1));
+        l.add(new Account("hieric", 100));
+        l.add(new Account("hinorman", 10));
+        l.add(new Account("lucas", 200));
+        l.add(new Account("alex", 40));
+        l.add(new Account("gemma", 150));
+
+
+        Collections.sort(l);
+        System.out.println(l);
+
+        Collections.sort(l);
+        System.out.println(l);
+
+        Collections.sort(l, new AccountComparator());
+        System.out.println(l);
+
+        Collections.sort(l, new AccountComparator());
+        System.out.println(l);
+
 
 
     }
