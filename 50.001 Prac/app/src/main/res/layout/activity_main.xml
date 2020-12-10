@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/faceValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Face Value"/>
+
+    <EditText
+        android:id="@+id/sellingPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Selling Price"/>
+
+    <EditText
+        android:id="@+id/annualInterestPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Annual Interest Payment"/>
+
+    <EditText
+        android:id="@+id/bondDuration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bond Duration in Years"/>
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULATE YIELD TO MATURITY"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="result here"/>
+
+</LinearLayout>
